@@ -14,14 +14,15 @@ applications:
 ## Deploy on Bluemix
 
 1. Push the application on Bluemix: `bx cf push`
+2. Open the application: `http://<your-application-name>.mybluemix.net/hello-world`
 
 ## Usage Locally
 
 1. Start the application using "run"
 2. Two endpoints:
 
-GET: "curl -X GET localhost:9000/hello-world"
-PUT: "curl -X PUT localhost:9000/hello-world?value=Hello"
+  GET: "curl -X GET localhost:9000/hello-world"
+  PUT: "curl -X PUT localhost:9000/hello-world?value=Hello"
 
 ## Resources
 + [Play Framework](https://www.playframework.com/)
