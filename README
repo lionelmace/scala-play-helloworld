@@ -2,7 +2,7 @@ A very simple "Hello World" web application using Play (https://www.playframewor
 
 This web application includes a `manifest.yml`to deploy it in IBM Bluemix Cloud. The manifest looks as follows:
 
-```
+```json
 applications:
 - memory: 256M
   instances: 1
@@ -11,10 +11,14 @@ applications:
   buildpack: https://github.com/heroku/heroku-buildpack-scala.git
 ```
 
-== Usage ==
+## Usage
 
 1. Start the application using "run"
 2. Two endpoints:
 
 GET: "curl -X GET localhost:9000/hello-world"
 PUT: "curl -X PUT localhost:9000/hello-world?value=Hello"
+
+## Resources
++ [Play Framework](https://www.playframework.com/)
++ [Cloud Foundry Manifest buildpack](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html#buildpack)
