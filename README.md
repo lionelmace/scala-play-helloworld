@@ -11,7 +11,11 @@ applications:
   buildpack: https://github.com/heroku/heroku-buildpack-scala.git
 ```
 
-## Usage
+## Deploy on Bluemix
+
+1. Push the application on Bluemix: `bx cf push`
+
+## Usage Locally
 
 1. Start the application using "run"
 2. Two endpoints:
